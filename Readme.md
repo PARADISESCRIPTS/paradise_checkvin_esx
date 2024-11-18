@@ -3,7 +3,7 @@
 This Script Utilizes:
 
 
-1: [QBOX](https://github.com/Qbox-project) / [QBCore](https://github.com/qbcore-framework)
+1: ESX
 
 
 2: [ox_lib](https://github.com/overextended/ox_lib)
@@ -12,15 +12,8 @@ This Script Utilizes:
 
 ## Join Our [Discord](https://discord.gg/xhdtB2JvbT) For More Info!
 
-## If Using qb-radialmenu
+## The Main Event To Trigger Check Vin
 
 ```
-    {
-        id = 'checkvin',
-        title = 'Check VIN',
-        icon = 'person-circle-check',
-        type = 'client',
-        event = 'paradsie_checkvin:checkVehicleRadial',
-        shouldClose = true
-    },
+paradsie_checkvin:checkVehicleRadial
 ```
